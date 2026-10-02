@@ -1,0 +1,639 @@
+{
+  "settings": {
+    "appName": "StreamVibe",
+    "appLogo": "/src/assets/images/app_brand_logo_1790671540965.jpg",
+    "tagline": "Watch & Enjoy",
+    "maintenanceMode": false,
+    "termsAndPrivacy": "StreamVibe prioritizes user privacy. We do not require social logins, passwords, or personal telemetry. Videos are streamed directly with standard HTTP byte-range caching."
+  },
+  "categories": [
+    {
+      "id": "cat-all",
+      "name": "All",
+      "slug": "all",
+      "description": "All streaming videos",
+      "order": 0
+    },
+    {
+      "id": "cat-tech",
+      "name": "Technology",
+      "slug": "technology",
+      "description": "Hardware, software, AI, and futuristic gadgets",
+      "order": 1
+    },
+    {
+      "id": "cat-nature",
+      "name": "Nature & Wildlife",
+      "slug": "nature-wildlife",
+      "description": "4K cinematography and wildlife documentaries",
+      "order": 2
+    },
+    {
+      "id": "cat-music",
+      "name": "Music & Concerts",
+      "slug": "music-concerts",
+      "description": "Live performances, acoustic sets, and studio sound",
+      "order": 3
+    },
+    {
+      "id": "cat-science",
+      "name": "Science & Cosmos",
+      "slug": "science-cosmos",
+      "description": "Space exploration, astrophysics, and quantum world",
+      "order": 4
+    },
+    {
+      "id": "cat-cinema",
+      "name": "Short Films",
+      "slug": "short-films",
+      "description": "Independent storytelling and visual cinema",
+      "order": 5
+    }
+  ],
+  "users": [
+    {
+      "id": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "name": "Mr Shivuu",
+      "mobileNumber": "8889842182",
+      "createdAt": "2026-09-29T08:52:48.388Z",
+      "lastActiveAt": "2026-09-30T08:27:19.699Z",
+      "status": "active",
+      "totalVideosWatched": 39
+    },
+    {
+      "id": "usr_eae168fe-ffc1-477a-a574-ef95e92973e2",
+      "name": "Priya Patel",
+      "mobileNumber": "+14155559876",
+      "createdAt": "2026-09-29T08:51:49.547Z",
+      "lastActiveAt": "2026-09-29T08:51:49.547Z",
+      "status": "active",
+      "totalVideosWatched": 0
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin-super-01",
+      "email": "admin@streamvibe.io",
+      "name": "Chief Administrator",
+      "role": "superadmin",
+      "passwordHash": "c5e2c68240ee7b586975f3165a6ad97a8009e87a03485ce365bad29abb31dae78e66bb0ae48d57422def9e0f0e120c5078271d3c38e9c812eedc517fa3f341e5",
+      "salt": "c1f5adac3305abb617cdc69aa68449ed",
+      "createdAt": "2026-08-30T08:51:20.696Z",
+      "lastLoginAt": "2026-09-29T08:53:00.887Z",
+      "sessionToken": "e206f51b3be169d60c0f1ba6d5e6dfad5bb80b6bbcf30559a3708607fe20d53f",
+      "tokenExpiresAt": "2026-09-30T08:53:00.887Z"
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid_a42734de-c1e7-4629-87ce-0da149e02ea3",
+      "title": "VID20260914175405",
+      "description": "My id active",
+      "channelName": "Gggggg",
+      "channelAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&auto=format&fit=crop&q=80",
+      "thumbnailUrl": "/src/assets/images/video_thumb_tech_1790671554097.jpg",
+      "videoUrl": "/videos/upload_1790756067897_54i62.mp4",
+      "sourceType": "direct",
+      "durationSeconds": 21,
+      "categoryId": "cat-tech",
+      "categoryName": "Technology",
+      "viewsCount": 10,
+      "uniqueViewersCount": 0,
+      "avgWatchDurationSeconds": 10,
+      "completionRate": 20,
+      "isPublished": true,
+      "publishedAt": "2026-09-30T08:14:46.687Z",
+      "createdAt": "2026-09-30T08:14:46.687Z",
+      "updatedAt": "2026-09-30T08:14:46.687Z"
+    },
+    {
+      "id": "vid_1fe30e4f-f17a-488c-bb22-cfa6d773efce",
+      "title": "VID 20260929 213327 228 bsl",
+      "description": "Meri photo de de",
+      "channelName": "Shiva",
+      "channelAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&auto=format&fit=crop&q=80",
+      "thumbnailUrl": "/thumbnails/thumb_1790755979696_y232r.png",
+      "videoUrl": "/videos/upload_1790755937948_4zgaj.mp4",
+      "sourceType": "direct",
+      "durationSeconds": 6,
+      "categoryId": "cat-all",
+      "categoryName": "All",
+      "viewsCount": 5,
+      "uniqueViewersCount": 0,
+      "avgWatchDurationSeconds": 10,
+      "completionRate": 20,
+      "isPublished": true,
+      "publishedAt": "2026-09-30T08:13:03.722Z",
+      "createdAt": "2026-09-30T08:13:03.722Z",
+      "updatedAt": "2026-09-30T08:13:03.722Z"
+    },
+    {
+      "id": "vid-tech-01",
+      "title": "Building the Future: Next-Gen Spatial Computing & Neural Hardware",
+      "description": "An in-depth look inside Silicon Valley research labs experimenting with cutting-edge optical silicon and human interface computing.",
+      "channelName": "Apex Tech Lab",
+      "channelAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80",
+      "thumbnailUrl": "/src/assets/images/video_thumb_tech_1790671554097.jpg",
+      "videoUrl": "/videos/bunny.mp4",
+      "sourceType": "direct",
+      "durationSeconds": 596,
+      "categoryId": "cat-tech",
+      "categoryName": "Technology",
+      "viewsCount": 142852,
+      "uniqueViewersCount": 98400,
+      "avgWatchDurationSeconds": 430,
+      "completionRate": 72.1,
+      "isPublished": true,
+      "publishedAt": "2026-09-27T08:51:20.695Z",
+      "createdAt": "2026-09-27T08:51:20.696Z",
+      "updatedAt": "2026-09-29T08:51:20.696Z"
+    },
+    {
+      "id": "vid-nature-01",
+      "title": "Wild Horizons: Majestic Nordic Fjords & Mountain Light in 4K",
+      "description": "Drone expedition across the Arctic circle capturing glacial valleys, misty pine canopies, and morning sunlight.",
+      "channelName": "Terra Earth Expeditions",
+      "channelAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+      "thumbnailUrl": "/src/assets/images/video_thumb_nature_1790671565897.jpg",
+      "videoUrl": "/videos/sample.mp4",
+      "sourceType": "direct",
+      "durationSeconds": 653,
+      "categoryId": "cat-nature",
+      "categoryName": "Nature & Wildlife",
+      "viewsCount": 389202,
+      "uniqueViewersCount": 295100,
+      "avgWatchDurationSeconds": 512,
+      "completionRate": 78.4,
+      "isPublished": true,
+      "publishedAt": "2026-09-25T08:51:20.696Z",
+      "createdAt": "2026-09-25T08:51:20.696Z",
+      "updatedAt": "2026-09-29T08:51:20.696Z"
+    },
+    {
+      "id": "vid-yt-music-01",
+      "title": "Ludovico Einaudi - Nuvole Bianche (Official Live Performance)",
+      "description": "Timeless contemporary classical solo piano performance filmed live in Milan.",
+      "channelName": "Decca Classics",
+      "channelAvatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=100&auto=format&fit=crop&q=80",
+      "thumbnailUrl": "/src/assets/images/video_thumb_nature_1790671565897.jpg",
+      "videoUrl": "/videos/sample.mp4",
+      "sourceType": "direct",
+      "durationSeconds": 348,
+      "categoryId": "cat-music",
+      "categoryName": "Music & Concerts",
+      "viewsCount": 894007,
+      "uniqueViewersCount": 610000,
+      "avgWatchDurationSeconds": 290,
+      "completionRate": 83.3,
+      "isPublished": true,
+      "publishedAt": "2026-09-22T08:51:20.696Z",
+      "createdAt": "2026-09-22T08:51:20.696Z",
+      "updatedAt": "2026-09-29T08:51:20.696Z"
+    },
+    {
+      "id": "vid-cinema-01",
+      "title": "Tears of Steel: Open Source Sci-Fi Visual Masterpiece",
+      "description": "VFX cinematic short set in a dystopian Amsterdam exploring human connection and robotics.",
+      "channelName": "Blender Studio",
+      "channelAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
+      "videoUrl": "/videos/sample.mp4",
+      "sourceType": "direct",
+      "durationSeconds": 734,
+      "categoryId": "cat-cinema",
+      "categoryName": "Short Films",
+      "viewsCount": 198002,
+      "uniqueViewersCount": 142000,
+      "avgWatchDurationSeconds": 610,
+      "completionRate": 83.1,
+      "isPublished": true,
+      "publishedAt": "2026-09-24T08:51:20.696Z",
+      "createdAt": "2026-09-24T08:51:20.696Z",
+      "updatedAt": "2026-09-29T08:51:20.696Z"
+    }
+  ],
+  "videoViews": [
+    {
+      "id": "view_11d4474c-f0ab-4356-94c8-909a4f38424e",
+      "videoId": "vid_f38a3062-9b79-4bfb-ab15-e898fa55f625",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-29T08:54:34.123Z"
+    },
+    {
+      "id": "view_d26499cb-5f93-4efe-a900-61eeafd0a8c3",
+      "videoId": "vid-tech-01",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-29T08:54:56.174Z"
+    },
+    {
+      "id": "view_59aecf94-8696-49d4-8616-ee1b6d49f49d",
+      "videoId": "vid_7ce85388-4c9d-44dd-9b75-667b570ec25d",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 15,
+      "completionRate": 30,
+      "viewedAt": "2026-09-29T08:57:27.765Z"
+    },
+    {
+      "id": "view_8b0c4a42-461e-4e84-ba99-7706e843cc51",
+      "videoId": "vid_f38a3062-9b79-4bfb-ab15-e898fa55f625",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-29T08:57:47.626Z"
+    },
+    {
+      "id": "view_a69c85a7-ac36-4eb5-ba00-9000ff30733c",
+      "videoId": "vid-tech-01",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-29T08:57:54.195Z"
+    },
+    {
+      "id": "view_5d6f25ae-7b4e-49ca-9683-e600f1cf1dac",
+      "videoId": "vid_7ce85388-4c9d-44dd-9b75-667b570ec25d",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 15,
+      "completionRate": 30,
+      "viewedAt": "2026-09-29T09:45:50.097Z"
+    },
+    {
+      "id": "view_e8f780e3-f36f-4a6a-a614-eefdb0afc1a5",
+      "videoId": "vid_f38a3062-9b79-4bfb-ab15-e898fa55f625",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-29T09:45:57.743Z"
+    },
+    {
+      "id": "view_460744cf-0e25-4286-80b7-ef5577068b0d",
+      "videoId": "vid-cinema-01",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-29T09:56:00.604Z"
+    },
+    {
+      "id": "view_916e790f-f908-41cc-a5c1-e29aa297e7dc",
+      "videoId": "vid_7ce85388-4c9d-44dd-9b75-667b570ec25d",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 15,
+      "completionRate": 30,
+      "viewedAt": "2026-09-29T10:05:43.763Z"
+    },
+    {
+      "id": "view_d51bd3e2-3a7b-4aaf-a98c-1765af62804e",
+      "videoId": "vid_f38a3062-9b79-4bfb-ab15-e898fa55f625",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-29T10:05:47.694Z"
+    },
+    {
+      "id": "view_bb5f473c-3997-4ec3-9ab6-fcd1faee67c1",
+      "videoId": "vid-yt-music-01",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 15,
+      "completionRate": 30,
+      "viewedAt": "2026-09-29T10:12:01.568Z"
+    },
+    {
+      "id": "view_e8c2756b-2d0b-42dd-844e-9cc9cc814bf4",
+      "videoId": "vid_7ce85388-4c9d-44dd-9b75-667b570ec25d",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 15,
+      "completionRate": 30,
+      "viewedAt": "2026-09-29T10:12:17.993Z"
+    },
+    {
+      "id": "view_6af745ac-a1b2-433d-a90b-9d3b11a075b6",
+      "videoId": "vid_7ce85388-4c9d-44dd-9b75-667b570ec25d",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 15,
+      "completionRate": 30,
+      "viewedAt": "2026-09-29T10:18:28.417Z"
+    },
+    {
+      "id": "view_b8aa6c46-f7aa-4a3f-a395-37d36c81920c",
+      "videoId": "vid_f38a3062-9b79-4bfb-ab15-e898fa55f625",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-29T10:18:42.296Z"
+    },
+    {
+      "id": "view_840b68eb-8d7c-4613-b83f-3dd0497e3dc2",
+      "videoId": "vid-cinema-01",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-29T10:18:59.838Z"
+    },
+    {
+      "id": "view_27b70f4c-d477-44a8-8d49-f5f1b4598849",
+      "videoId": "vid_7bfae731-d417-45ef-a812-f15fb17be8a8",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-29T10:21:24.718Z"
+    },
+    {
+      "id": "view_c2bd6805-e402-433c-bbc1-7b354d639bbf",
+      "videoId": "vid-yt-music-01",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 15,
+      "completionRate": 30,
+      "viewedAt": "2026-09-30T08:10:57.437Z"
+    },
+    {
+      "id": "view_76f44deb-df3a-41c2-a59f-d5737ef6323e",
+      "videoId": "vid_1fe30e4f-f17a-488c-bb22-cfa6d773efce",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:13:10.235Z"
+    },
+    {
+      "id": "view_b7fe6053-2f53-42fd-b9c9-f7568985a926",
+      "videoId": "vid_a42734de-c1e7-4629-87ce-0da149e02ea3",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:14:57.207Z"
+    },
+    {
+      "id": "view_8e1b41fe-b7c7-44c6-9319-0ca24557cb07",
+      "videoId": "vid_1fe30e4f-f17a-488c-bb22-cfa6d773efce",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:15:10.924Z"
+    },
+    {
+      "id": "view_b346a0f0-530d-4f6d-8857-39c29f0c4165",
+      "videoId": "vid-yt-music-01",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 15,
+      "completionRate": 30,
+      "viewedAt": "2026-09-30T08:16:01.903Z"
+    },
+    {
+      "id": "view_98b11070-9804-4901-ac0a-f1cc0f47af30",
+      "videoId": "vid_a42734de-c1e7-4629-87ce-0da149e02ea3",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:16:04.814Z"
+    },
+    {
+      "id": "view_3316350c-20d4-4b9c-905d-7556496f69be",
+      "videoId": "vid_1fe30e4f-f17a-488c-bb22-cfa6d773efce",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:16:08.394Z"
+    },
+    {
+      "id": "view_3ee11279-76da-4683-82e5-63d31f8513a0",
+      "videoId": "vid-nature-01",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:21:37.400Z"
+    },
+    {
+      "id": "view_f2639d2d-d67b-4839-8f5d-18945f5bcafb",
+      "videoId": "vid-nature-01",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:21:41.928Z"
+    },
+    {
+      "id": "view_c6e49289-e8d0-4086-8f7f-75db3186754d",
+      "videoId": "vid_a42734de-c1e7-4629-87ce-0da149e02ea3",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:22:00.135Z"
+    },
+    {
+      "id": "view_c46d7033-3967-45ee-860d-fc0152685cbe",
+      "videoId": "vid_a42734de-c1e7-4629-87ce-0da149e02ea3",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:22:00.137Z"
+    },
+    {
+      "id": "view_138c4bfc-d2bd-4b01-8f62-9675f766a0ad",
+      "videoId": "vid-yt-music-01",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:22:27.046Z"
+    },
+    {
+      "id": "view_586e5eea-6733-4912-a8ec-b246ff76e222",
+      "videoId": "vid_a42734de-c1e7-4629-87ce-0da149e02ea3",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:22:35.855Z"
+    },
+    {
+      "id": "view_e5ac7e3e-0861-4f2f-82b7-d37ceb3668f3",
+      "videoId": "vid_1fe30e4f-f17a-488c-bb22-cfa6d773efce",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:22:59.804Z"
+    },
+    {
+      "id": "view_a7c7d37d-74fe-4543-809f-4fd1c05b2080",
+      "videoId": "vid_a42734de-c1e7-4629-87ce-0da149e02ea3",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:23:06.166Z"
+    },
+    {
+      "id": "view_d15af4ff-8859-4aa3-b205-c01fe621250b",
+      "videoId": "vid_1fe30e4f-f17a-488c-bb22-cfa6d773efce",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:23:09.836Z"
+    },
+    {
+      "id": "view_1b4db5cc-0c58-46df-a967-ad6f4d572e37",
+      "videoId": "vid_a42734de-c1e7-4629-87ce-0da149e02ea3",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:23:14.526Z"
+    },
+    {
+      "id": "view_7d17caff-19e8-45f7-a805-07309891d927",
+      "videoId": "vid-yt-music-01",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:23:40.115Z"
+    },
+    {
+      "id": "view_51c8d92a-9eeb-4f45-85af-86e351f910a2",
+      "videoId": "vid_a42734de-c1e7-4629-87ce-0da149e02ea3",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:23:52.590Z"
+    },
+    {
+      "id": "view_7ed27201-923e-4038-8722-fb131e791093",
+      "videoId": "vid_a42734de-c1e7-4629-87ce-0da149e02ea3",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:23:54.495Z"
+    },
+    {
+      "id": "view_092c2c92-ef62-4241-805e-8e39e6e1f9b0",
+      "videoId": "vid-yt-music-01",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:24:18.187Z"
+    },
+    {
+      "id": "view_747af446-7e00-4700-84fd-21f3455fb308",
+      "videoId": "vid_a42734de-c1e7-4629-87ce-0da149e02ea3",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:25:11.647Z"
+    },
+    {
+      "id": "view_00bbd0df-6862-4c1d-82e7-672fa05bf140",
+      "videoId": "vid-yt-music-01",
+      "userId": "usr_22966312-ee15-48df-a5b3-6ec0142b9281",
+      "watchDurationSeconds": 10,
+      "completionRate": 20,
+      "viewedAt": "2026-09-30T08:27:19.699Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "adminId": "admin",
+      "adminEmail": "admin@streamvibe.io",
+      "action": "UPLOAD_VIDEO",
+      "entityType": "video",
+      "entityId": "vid_a42734de-c1e7-4629-87ce-0da149e02ea3",
+      "details": "Added new video 'VID20260914175405' (DIRECT)",
+      "ipAddress": "127.0.0.1",
+      "id": "log_83826217-ea80-41f5-ba48-ec71b1f41912",
+      "createdAt": "2026-09-30T08:14:46.688Z"
+    },
+    {
+      "adminId": "admin",
+      "adminEmail": "admin@streamvibe.io",
+      "action": "UPLOAD_VIDEO",
+      "entityType": "video",
+      "entityId": "vid_1fe30e4f-f17a-488c-bb22-cfa6d773efce",
+      "details": "Added new video 'VID 20260929 213327 228 bsl' (DIRECT)",
+      "ipAddress": "127.0.0.1",
+      "id": "log_5e3d36ba-e8e6-4529-9674-eac003aba571",
+      "createdAt": "2026-09-30T08:13:03.722Z"
+    },
+    {
+      "adminId": "admin",
+      "adminEmail": "admin@streamvibe.io",
+      "action": "DELETE_VIDEO",
+      "entityType": "video",
+      "entityId": "vid-yt-space-01",
+      "details": "Deleted video 'James Webb Space Telescope: Revealing the Cosmic Dawn'",
+      "ipAddress": "127.0.0.1",
+      "id": "log_1bc580c1-7290-47f2-8adb-ec49435d1945",
+      "createdAt": "2026-09-30T08:11:52.591Z"
+    },
+    {
+      "adminId": "admin",
+      "adminEmail": "admin@streamvibe.io",
+      "action": "UPLOAD_VIDEO",
+      "entityType": "video",
+      "entityId": "vid_7bfae731-d417-45ef-a812-f15fb17be8a8",
+      "details": "Added new video 'Kash ho to the' (DIRECT)",
+      "ipAddress": "127.0.0.1",
+      "id": "log_982f0954-cb0f-4dbc-b30b-0012a2f9df77",
+      "createdAt": "2026-09-29T10:21:06.586Z"
+    },
+    {
+      "adminId": "admin",
+      "adminEmail": "admin@streamvibe.io",
+      "action": "UPLOAD_VIDEO",
+      "entityType": "video",
+      "entityId": "vid_7ce85388-4c9d-44dd-9b75-667b570ec25d",
+      "details": "Added new video 'Tggggf. Jhbb' (YOUTUBE)",
+      "ipAddress": "127.0.0.1",
+      "id": "log_61e72de0-1ba7-460c-966d-7662057ad130",
+      "createdAt": "2026-09-29T08:57:16.925Z"
+    },
+    {
+      "adminId": "admin",
+      "adminEmail": "admin@streamvibe.io",
+      "action": "UPLOAD_VIDEO",
+      "entityType": "video",
+      "entityId": "vid_f38a3062-9b79-4bfb-ab15-e898fa55f625",
+      "details": "Added new video 'Hh' (DIRECT)",
+      "ipAddress": "127.0.0.1",
+      "id": "log_e06747d8-274c-43e9-a6b8-5f2555ebe533",
+      "createdAt": "2026-09-29T08:54:19.517Z"
+    },
+    {
+      "adminId": "admin-super-01",
+      "adminEmail": "admin@streamvibe.io",
+      "action": "ADMIN_LOGIN",
+      "entityType": "auth",
+      "details": "Admin session started successfully",
+      "ipAddress": "127.0.0.1",
+      "id": "log_986efae2-9c1d-4161-bafb-8eda98c819c5",
+      "createdAt": "2026-09-29T08:53:00.888Z"
+    },
+    {
+      "adminId": "admin-super-01",
+      "adminEmail": "admin@streamvibe.io",
+      "action": "ADMIN_LOGIN",
+      "entityType": "auth",
+      "details": "Admin session started successfully",
+      "ipAddress": "127.0.0.1",
+      "id": "log_7e8eafb1-fe68-4225-a8cc-04ec6fe38ade",
+      "createdAt": "2026-09-29T08:51:46.113Z"
+    },
+    {
+      "id": "log-01",
+      "adminId": "admin-super-01",
+      "adminEmail": "admin@streamvibe.io",
+      "action": "SYSTEM_INITIALIZED",
+      "entityType": "settings",
+      "entityId": "current_settings",
+      "details": "Initial StreamVibe system setup and seed categories loaded.",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-09-27T08:51:20.696Z"
+    },
+    {
+      "id": "log-02",
+      "adminId": "admin-super-01",
+      "adminEmail": "admin@streamvibe.io",
+      "action": "VIDEO_PUBLISHED",
+      "entityType": "video",
+      "entityId": "vid-tech-01",
+      "details": "Published new feature video: Building the Future: Next-Gen Spatial Computing.",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-09-28T08:51:20.696Z"
+    }
+  ]
+}

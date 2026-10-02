@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StreamVibe 512x512 App Icon</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    body { background-color: #0b0f19; color: #f1f5f9; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; padding: 20px; text-align: center; }
+    .card { background: #131b2e; border: 1px solid #23304c; border-radius: 24px; padding: 28px 24px; max-width: 420px; width: 100%; box-shadow: 0 20px 40px rgba(0,0,0,0.6); }
+    .badge { display: inline-block; background: rgba(225, 29, 72, 0.15); color: #fb7185; border: 1px solid rgba(225, 29, 72, 0.3); font-size: 12px; font-weight: 600; padding: 4px 12px; border-radius: 999px; margin-bottom: 16px; }
+    h1 { font-size: 22px; font-weight: 800; margin-bottom: 8px; color: #ffffff; }
+    p { font-size: 13px; color: #94a3b8; line-height: 1.5; margin-bottom: 20px; }
+    .icon-container { width: 180px; height: 180px; margin: 0 auto 24px; border-radius: 32px; overflow: hidden; box-shadow: 0 12px 30px rgba(225,29,72,0.3); border: 2px solid #334155; }
+    .icon-container img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; width: 100%; padding: 14px 20px; background: linear-gradient(135deg, #e11d48, #be123c); color: white; text-decoration: none; border-radius: 14px; font-size: 15px; font-weight: 700; box-shadow: 0 4px 15px rgba(225,29,72,0.4); margin-bottom: 12px; cursor: pointer; border: none; }
+    .btn:active { transform: scale(0.98); }
+    .hint { font-size: 11px; color: #64748b; margin-top: 10px; }
+    .steps { text-align: left; background: #0c1220; border: 1px solid #1e293b; border-radius: 12px; padding: 14px; margin-top: 16px; font-size: 12px; color: #cbd5e1; }
+    .steps ol { padding-left: 18px; line-height: 1.7; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <span class="badge">PWABuilder 512×512 HD Icon</span>
+    <h1>StreamVibe App Icon</h1>
+    <p>Neeche button par click karke icon download karein, ya photo par long-press karke <strong>Save image</strong> karein.</p>
+    
+    <div class="icon-container">
+      <img id="iconImg" src="/pwa-512x512.png" alt="StreamVibe 512x512 Icon" />
+    </div>
+
+    <a id="dlLink" href="/download-icon" download="streamvibe-icon-512x512.png" class="btn">
+      ⬇️ Download 512x512 Icon
+    </a>
+
+    <div class="steps">
+      <strong>PWABuilder Me Upload Karne Ke Steps:</strong>
+      <ol>
+        <li>Upar wale button se icon save karein.</li>
+        <li>PWABuilder me wapas jayein.</li>
+        <li><strong>Icons!</strong> tab me <strong>[ Upload ]</strong> dabakar is photo ko select karein.</li>
+      </ol>
+    </div>
+    <div class="hint">Exact 512x512 PNG Format · PWABuilder Ready</div>
+  </div>
+</body>
+</html>
